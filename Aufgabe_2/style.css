@@ -51,6 +51,9 @@ h4{
     position: relative;
     bottom:2em;
     float:center;
+    margin:auto;
+    right:90px;
+    top:0px;
 
 }
 
@@ -111,3 +114,4 @@ p8 {
     box-shadow: 0 5px #666;
     transform: translateY(4px)
 }
+
