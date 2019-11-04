@@ -1,0 +1,46 @@
+body {
+    background-image: url("deckblatt.jpg");
+}
+
+.card{
+    display:flex;
+    align-items:flex;
+    justify-content: center;
+    padding:115px;
+    position:relative;
+}
+
+h1{
+    position:absolute;
+    top:200px;
+    left:440px;
+    width:50%;
+    color:white;
+    font:size 18px;
+    width:50%;
+}
+
+
+p{
+    position:absolute;
+    top:310px;
+    left:430px;
+}
+
+a{
+    font-size:25px;
+    color:red;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    background-color: white;
+    border: green;
+    border-radius:20px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }

@@ -1,0 +1,22 @@
+body{
+    background-image: url(bg.png);
+}
+
+.card{
+    display:flex;
+    align-items:flex;
+    justify-content: center;
+    padding:115px;
+}
+
+.video{
+    position:absolute;
+    top:170px;
+    left:420px;
+}
+
+.band{
+    position:absolute;
+    bottom:130px;
+    right:372px;
+}

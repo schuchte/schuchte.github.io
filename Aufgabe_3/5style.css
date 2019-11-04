@@ -1,0 +1,115 @@
+body{
+    background-image: url(bg.png);
+}
+
+.card{
+    display:flex;
+    align-items:flex;
+    justify-content: center;
+    padding:115px;
+}
+
+h1{
+    position: absolute;
+    color:white;
+    top:165px;
+    left:420px;
+    font-size:42px;
+}
+
+p1{
+    position: absolute;
+    color:white;
+    top:270px;
+    left:420px;
+    font-size:18px; 
+}
+
+p2{
+    position: absolute;
+    color:white;
+    top:350px;
+    left:420px;
+    font-size:18px; 
+}
+
+p3{
+    position: absolute;
+    color:white;
+    top:478px;
+    left:420px;
+    font-size:18px; 
+}
+
+
+input{
+    position:absolute;
+    background-color: white;
+    color:black;
+    width: 200px;
+    height: 25px;
+    top:295px;
+    left:420px;
+    border-radius:5px;
+}
+
+
+textarea{
+    position:absolute;
+    background-color: white;
+    color:black;
+    width: 290px;
+    height: 85px;
+    top:375px;
+    left:420px;
+    border-radius:5px;
+}
+
+button{
+    position:absolute;
+    background-color:white;
+    font-size:15px;
+    color:black;
+    width:97px;
+    height:23px;
+    left:420px;
+    top:290;
+    bottom:185px;
+    border-radius:5px;
+}
+
+.yes{
+    position:absolute;
+    background-color:white;
+    color:black;
+    width:10px;
+    height: 10px;
+    top:500px;
+    left:420px;
+}
+
+.no{
+    position:absolute;
+    background-color:white;
+    color:black;
+    width:10px;
+    height:10px;
+    top:500px;
+    left:460px;
+}
+
+p4{
+    position:absolute;
+    color:white;
+    font-size:15px;
+    top:500px;
+    left:445px;
+}
+
+p5{
+    position:absolute;
+    color:white;
+    font-size:15px;
+    top:500px;
+    left:485px;
+}
