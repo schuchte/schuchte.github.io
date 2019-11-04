@@ -1,5 +1,87 @@
 
 body {
     background-image: url("bg.png");
-    text-align: center;
+}
+
+.card{
+    display:flex;
+    align-items:flex;
+    justify-content: center;
+    padding:115px;
+    position:relative;
+}
+
+
+h1{
+    position: absolute;
+    color:white;
+    top:165px;
+    left:430px;
+    font-size:35px;
+
+  }
+
+  h2{ 
+    position:absolute;
+    color:white;
+    top:210px;
+    left:430px;
+    font-size:35px;
+  }
+
+p1{
+    position:absolute;
+    top:360px;
+    left:440px;
+    width:50%;
+    color:white;
+    font-size:18;
+}
+
+p2{
+    position:absolute;
+    top:420px;
+    left:440px;
+    width:50%;
+    color:white;
+    font-size:18;
+
+}
+
+p3{
+    position:absolute;
+    top:510px;
+    left:440px;
+    width:50%;
+    color:white;
+    font-size:16;
+
+}
+
+.busch{
+    position:absolute;
+    top:65px;
+    left:300px;
+}
+
+.pinguin{
+    position:absolute;
+    bottom:110px;
+    right:370px;
+}
+
+p4{ position:absolute;
+    top:400px;
+    left:440px;
+    width:50%;
+    color:white;
+    font-size:18;
+}
+
+p5{ position:absolute;
+    top:440px;
+    left:440px;
+    width:50%;
+    color:white;
+    font-size:18;
 }

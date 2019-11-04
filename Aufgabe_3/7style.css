@@ -1,0 +1,92 @@
+body{
+    background-image: url(images/bg.png);
+}
+
+.card{
+    display:flex;
+    align-items:flex;
+    justify-content: center;
+    padding:115px;
+    position:relative;
+    z-index: -2;
+}
+
+#present{
+    position:absolute;
+    bottom:110px;
+    right:360px;
+}
+
+.busch{
+    position:absolute;
+    top:65px;
+    left:300px;
+}
+
+h1{
+    position:absolute;
+    color:white;
+    top:315px;
+    left:450px;
+}
+
+p1{
+    position:absolute;
+    color:white;
+    top:440px;
+    left:450px;
+    font-size:16px;
+}
+
+p2{
+
+    position:absolute;
+    color:white;
+    top:460px;
+    left:450px;
+    font-size:16px;
+
+}
+
+p3{
+    position:absolute;
+    color:white;
+    top:480px;
+    left:450px;
+    font-size:16px;
+
+
+}
+
+p4{
+    position:absolute;
+    color:white;
+    top:500px;
+    left:450px;
+    font-size:16px;
+}
+
+video{
+    position:absolute;
+    top:190px;
+    right:410px;
+    z-index: -1;
+}
+
+.stern1{
+    position:absolute;
+    top:180px;
+    left:625px;
+}
+
+.stern2{
+    position:absolute;
+    top:230px;
+    right:680px;
+}
+
+.stern3{
+    position:absolute;
+    top:240px;
+    left:470px;
+}

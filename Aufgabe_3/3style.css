@@ -1,0 +1,92 @@
+body{
+    background-image: url(bg.png);
+}
+
+.card{
+    display:flex;
+    align-items:flex;
+    justify-content: center;
+    padding:115px;
+}
+
+
+.stern{
+    position:absolute;
+    display:block;
+    width:65px;
+    height: 65px;
+    top:290px;
+    left:570px;
+    background-image: url('stern.png');
+}
+
+.stern:hover{
+    position:absolute;
+    background-image: url('stern_hover.png');
+}
+
+.stern2{
+    position:absolute;
+    display:block;
+    width:65px;
+    height:65px;
+    top:380px;
+    left:935px;
+    right:0px;
+    background-image: url('stern.png');
+}
+
+.stern2:hover{
+    position:absolute;
+    background-image: url('stern_hover.png');
+}
+
+.stern3{
+    position:absolute;
+    display:block;
+    width:65px;
+    height:65px;
+    top:470px;
+    left:700px;
+    right:0px;
+    background-image: url('stern.png');
+}
+
+.stern3:hover{
+    position:absolute;
+    background-image: url('stern_hover.png');
+}
+
+.stern4{
+    position:absolute;
+    display:block;
+    width:65px;
+    height:65px;
+    top:393px;
+    left:450px;
+    right:0px;
+    background-image: url('stern.png');
+}
+
+.stern4:hover{
+    position:absolute;
+    background-image: url('stern_hover.png');
+}
+
+
+h1{
+    position: absolute;
+    color:white;
+    top:165px;
+    left:420px;
+    font-size:40px;
+
+  }
+
+  h2{ 
+    position:absolute;
+    color:white;
+    top:210px;
+    left:420px;
+    font-size:40px;
+  }
