@@ -1,159 +1,132 @@
 body {
     background-color:white;
+    width:100%;
+    text-align:center;
 }
     
 .card{
-    display:flex;
-    align-items:flex;
-    justify-content: center;
-    padding:115px;
-    position:fixed;
-    left:300px;
+    position: absolute;
+    max-width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 span1{
     position:absolute;
-    text-align:left;
-    top:210px;
-    left:430px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 span2{
     position:absolute;
-    text-align:left;
-    top:160px;
-    left:430px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-
-    .Frage{
-       width: 80%; 
-       margin-left: auto; 
-       margin-right: auto; 
-    }
-    
 .Frage{
     position:absolute;
-    top:380px;
-    left:385px;
+    margin:auto;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .Antwort1{
     position: absolute;
-    top:500px;
-    left:398px;
     opacity: 1;
     z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .Antwort2{
     position:absolute;
-    top:500px;
-    left:738px;
     opacity: 1;
     z-index: 999;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .Antwort3{
     position:absolute;
-    top:550px;
-    left:398px;
     opacity: 1;
     z-index: 999;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .Antwort4{
     position:absolute;
-    top:550px;
-    left:738px;
     opacity: 1;
     z-index: 999;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 p1 {
     position:absolute;
     font-family: sans-serif;
-    top:425px;
-    left:588px;
     color:white;
     z-index: 999;
+    font-size:10px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 p2 {
     position:absolute;
     font-family: sans-serif;
-    top:523px;
-    left:500px;
     color:white;
     z-index: 999;
+    font-size: 13px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.A {
-    position:absolute;
-    font-family: sans-serif;
-    top:507px;
-    left:478px;
-    color:rgb(240, 130, 13);
-    font-weight: bold;
-    z-index: 999;
-}
 
 p3 {
     position:absolute;
     font-family: sans-serif;
-    top:573px;
-    left:840px;
     color:white;
     z-index: 999;
+    font-size: 13px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.B {
-    position:absolute;
-    font-family: sans-serif;
-    top:507px;
-    left:818px;
-    color:rgb(240, 130, 13);
-    font-weight: bold;
-    z-index: 999;
-}
 
 p4 {
     position:absolute;
     font-family: sans-serif;
-    top:573px;
-    left:502px;
     color:white;
     z-index: 999;
+    font-size: 13px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.C {
-    position:absolute;
-    font-family: sans-serif;
-    top:558px;
-    left:478px;
-    color:rgb(240, 130, 13);
-    font-weight: bold;
-    z-index: 999;
-}
+
 
 p5{
     position: absolute;
     font-family: sans-serif;
-    top:523px;
-    left:840px;
     color:white;
     z-index: 999;
+    font-size: 13px;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-
-.D {
-    position:absolute;
-    font-family: sans-serif;
-    top:558px;
-    left:818px;
-    color:rgb(240, 130, 13);
-    font-weight: bold;
-    z-index: 999;
-}
-
 
 
 .Antwort1:hover{
@@ -179,28 +152,38 @@ p5{
 .xxXXxx1{
     opacity: 1;
     position: absolute;
-    top: 500px;
-    left: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .xxXXxx2{
     opacity: 1;
     position: absolute;
-    top: 550px;
-    left: 400px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
 .xxXXxx3{
     opacity: 1;
     position: absolute;
-    top: 500px;
-    left: 737px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .xxXXxx4{
     opacity: 1;
     position: absolute;
-    top: 550px;
-    left: 737px;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+@media only screen
+    and (min-device-width : 220px)
+    and (max-device-width : 480px){ 
+        .mobileShow {display: inline;}
+    }
