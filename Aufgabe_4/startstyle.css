@@ -2,32 +2,47 @@ body {
     background-color:white;
 }
 
+    
 .card{
-    display:flex;
-    align-items:flex;
-    justify-content: center;
-    padding:115px;
-    position:fixed;
-    left:300px;
+    position: absolute;
+    max-width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 h1{
     position:absolute;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:60px;
+    font-size:30px;
     color:white;
-    top:140px;
+    top:10%;
+    left:30%;
+}
+
+.sm{
+    position:absolute;
+    top:88%;
+    left:20%;
+    font-weight: bold;
+    font-family:sans-serif;
 }
 
 a{
     position:absolute;
     border-radius: 30px;
-    font-size:30px;
+    font-size:20px;
     color:white;
-    top:335px;
-    left:668px;
+    top:60%;
+    left:30%;
     display: block;
     background-color:black;
     text-decoration: none;
     padding:20px 20px 20px 20px;
 }
+
+@media only screen
+    and (min-device-width : 220px)
+    and (max-device-width : 480px){ 
+        .mobileShow {display: inline;}
+    }
