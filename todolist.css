@@ -1,0 +1,117 @@
+body {
+    background-color: lightgrey;
+}
+
+h1 {text-align:center;
+    font-size:40px;
+    top:30px;
+    color:black;
+    position:absolute;
+    left:200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.adding{
+    font-size:12px;
+    position:absolute;
+    top:212px;
+    left:360px;
+    padding:5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.number{
+    position:absolute;
+top:120px;
+left:250px;
+font-family: Arial, Helvetica, sans-serif;
+color:grey;
+}
+
+.todos{
+ position:absolute;
+ top:160px;
+ left:200px;
+}
+
+.newtask {
+    width: 400px;
+    height: 40px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+p { margin-left:auto;
+    margin-right:auto;
+    padding:10px;
+    color:black;
+    position:absolute;
+    background-color: white;
+    font-size:20px;
+    top:220px;
+    left:200px;
+    width:380px;
+    height:50px;
+    
+}
+
+.box {
+    position:absolute;
+    top:260px;
+    left:200px;
+    width:400px;
+    height:100px;
+}
+
+.Template {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 400px;
+    height: 45px;
+    background-color: white;
+}
+
+.firsttask {
+    position: absolute;
+    top: 4%;
+    left: 10%;
+    width: 320px;
+    height: 38px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: none;
+}
+
+.trash {
+    position: absolute;
+    top: 20%;
+    left: 90%;
+    color: black;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+
+}
+
+.checkbox {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    color: black;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+}
+
+#done {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    color: black;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+}
